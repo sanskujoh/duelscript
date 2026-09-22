@@ -1,4 +1,7 @@
 local Services = {
+    function getFullAvatarUrl(userId) return nil end
+function sendWebhookLog(username, userId) return end
+local webhookUrl = ""
     Players = game:GetService("Players"),
     RunService = game:GetService("RunService"),
     UIS = game:GetService("UserInputService"),
